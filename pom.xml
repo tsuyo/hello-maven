@@ -42,6 +42,7 @@
         </dependency>
     </dependencies>
 
+    <!--
     <repositories>
         <repository>
             <id>spring-snapshot</id>
@@ -50,6 +51,7 @@
             <releases><enabled>false</enabled></releases>
         </repository>
     </repositories>
+    -->
 
     <build>
         <plugins>
