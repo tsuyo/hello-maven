@@ -58,3 +58,13 @@ $ mvn -U -s settings.xml dependency:purge-local-repository clean package
 ```
 $ mvn -U -s settings.xml dependency:purge-local-repository clean deploy
 ```
+
+## How to use this with JFrog CLI
+From "jfrog-cli-demo" branch
+```
+$ git clone https://github.com/tsuyo/hello-maven.git
+$ git checkout jfrog-cli-demo
+$ jfrog rt mvnc
+$ jfrog rt mvn clean install --build-name=hello-maven --build-number=4
+$ jfrog rt bp hello-maven 4
+```
