@@ -2,7 +2,7 @@
 This is a basic Maven configuration and gradually adds each functionality (dependency, remote repository etc.) per each commit.
 
 ## How to use this with JFrog Artifactory
-From commit 85f00b903eee3e8089ff9dc6ef66f4456046f965,
+From "artifactory-demo" tag (commit 85f00b903eee3e8089ff9dc6ef66f4456046f965),
 
 1. Build w/o JFrog Artifactory and check all dependencies are downloaded from https://repo.maven.apache.org/ and https://repo.spring.io/
 ```
